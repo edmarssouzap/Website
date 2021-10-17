@@ -1,0 +1,33 @@
+
+.container {
+    border: 0px  solid white;
+}
+
+.paragrafo-esquerda {
+
+width: 100%;
+height: auto;
+padding: 35px;
+border: 2px solid gray;
+ /* top right bottom left */
+margin: 10px 10px 20px 10px;
+}
+
+.paragrafo-esquerda p {
+    font-size: 18px;
+    text-align: left;
+}
+
+.paragrafo-direita {
+    width: 100%;
+    padding: 35px;
+    border: 2px solid gray;
+     /* top right bottom left */
+    margin: 10px 10px 20px 0px;
+}
+
+.paragrafo-direita p {
+    font-size: 18px;
+    text-align: left;
+}
+

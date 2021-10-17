@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <link href="style.css" rel="stylesheet">
+ 
+
+  <title>Contate-nos</title>
+
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="container">
+
+      <div class="row">
+        <div class="col">
+          <div class="linhaTopo">
+            <div class="col-md-4">
+              <span class="glyphicon glyphicon-earphone"> (011) 98787-8787</span>
+            </div>
+
+            <div class="col-md-4">
+              <span class="glyphicon glyphicon-envelope"> mmsenceradosecordas@gmail.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <div class="logo">
+            <a href="index.html">
+              <img src="imagens/logo/Black and Yellow Cart Retail Logo.gif" alt="" width="250px" height="250px">
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- NAV BAR -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary bg-warning">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Empresa</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+                  aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                  <ul class="navbar-nav text-uppercase me-auto py-4 py-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="index.html">
+                        <span>Home</span>
+                      </a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link" href="quemsomos.html"><span>Quem somos</span></a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><span>Produtos<span></a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><span>Serviços<span></a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link" href="contato.html"><span>Contato<span></a>
+                    </li>
+                  </ul>
+
+                  <!-- CAIXA DE PESQUISAR -->
+                  <form class="d-flex">
+                    <input class="form-control" type="text" placeholder="Pesquisar">
+                    <button class="btn btn-secondary bg-warning" type="submit">Pesquisar</button>
+                  </form>
+
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Formulario -->
+      <div class="row">
+        <div class="col">
+          <div class="formulario">
+
+            <form id="contact" action="" method="post" class="form">
+
+              <div class="col-md-12">
+                <h2>Como podemos te ajudar?</h2>
+              </div>
+
+              <div class="col-md-4">
+                <fieldset>
+                  <input name="name" type="text" class="form-control" id="name" placeholder="Seu nome..." required="">
+                </fieldset>
+              </div>
+
+              <div class="col-md-4">
+                <fieldset>
+                  <input name="email" type="text" class="form-control" id="email" placeholder="Seu e-mail..."
+                    required="">
+                </fieldset>
+              </div>
+
+              <div class="col-md-4">
+                <fieldset>
+                  <input name="telefone" type="text" class="form-control" id="telefone" placeholder="Seu telefone..."
+                    required="">
+                </fieldset>
+              </div>
+
+              <div class="col-md-12">
+                <fieldset>
+                  <textarea name="mensagem" rows="6" class="form-control" id="message" placeholder="Sua mensagem..."
+                    required=""></textarea>
+                </fieldset>
+              </div>
+
+              <div class="col-md-12">
+                <fieldset>
+                  <button type="submit" id="form-submit" class="">Enviar</button>
+                </fieldset>
+              </div>
+
+            </form>
+
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Mapa - API do Google Maps -->
+      <section>
+        <iframe id="mapa"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1830.1056449839532!2d-46.46240584419952!3d-23.452841856597257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce61c52b7d8d13%3A0x76ba980a4dcf0e0c!2sMezi%20Encerados%20e%20Cordas!5e0!3m2!1spt-BR!2sbr!4v1634158140590!5m2!1spt-BR!2sbr"
+          width="600" height="350" style="border:10;" allowfullscreen="" loading="lazy">
+        </iframe>
+
+      </section>
+
+
+      <!-- Menu Inferior do rodape -->
+      <div class="row">
+        <div class="menusInferior">
+          <div class="col-md-4">
+
+            <div class="menuInferiorPrincipal">
+              <ul>
+                <p>Menu</p>
+                <li><a href="index.html">
+                    <h6>Home</h6>
+                  </a>
+                </li>
+                <li> <a href="quemsomos.html">
+                    <h6>Quem somos</h6>
+                  </a> </li>
+                <li> <a href="produtos.html">
+                    <h6>Produtos</h6>
+                  </a> </li>
+                <li> <a href="servicos.html">
+                    <h6>Serviços</h6>
+                  </a> </li>
+                <li> <a href="contato.html">
+                    <h6>Contato</h6>
+                  </a></li>
+              </ul>
+            </div>
+          </div>
+
+
+          <div class="col-md-4">
+            <div class="horarioFuncionamento">
+              <ul>
+                <p>Horário de Funcionamento</p>
+                <li>
+                  <h6>Seg. a Sex. das 08h às 18h</h6>
+                </li>
+                <li>
+                  <h6>Sabado das 08h às 12h</h6>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="menuRedesSociais">
+              <div class="row">
+                <div class="col-md-12">
+                  <p>Redes Sociais</p>
+                </div>
+
+                <div class="col-md-12">
+                  <a href="https://pt-br.facebook.com/">
+                    <img src="imagens/icon/facebook.png" alt="">
+                  </a>
+
+                  <a href="https://api.whatsapp.com/send?phone=5511987879987">
+                    <img src="imagens/icon/whatsapp.png" alt="">
+                  </a>
+
+                  <a href="https://www.instagram.com/">
+                    <img src="imagens/icon/instagram.png" alt="">
+                  </a>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <div class="pag">
+            <img src="imagens/pagamento/visa.png" alt="">
+            <img src="imagens/pagamento/mastercard.png" alt="">
+            <img src="imagens/pagamento/elo.png" alt="">
+            <img src="imagens/pagamento/hipercard.png" alt="">
+            <img src="imagens/pagamento/boleto.png" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <div class="copyright">
+            <h6>@2021 - MMS Encerados e Cordas | All right reserved.</h6>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <link href="style-formulario.css" rel="stylesheet">
+</body>
+
+</html>

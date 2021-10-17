@@ -1,0 +1,19 @@
+.container {
+    width: 80%;
+}
+
+.formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid wheat;
+}
+
+.form-control {
+    margin: 10px;
+    padding: 10px;
+}
+.form-control input {
+    margin: 10px;
+    padding: 10px;
+}
